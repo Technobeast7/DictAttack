@@ -1,18 +1,33 @@
-<h1>🚀 Exciting Encryption and Password Cracking Utility 🚀<h1/>
+# Hash Converter and Password Cracker
 
-Hello Everyone! Today, we've got an incredible piece of code to share with you. This powerful utility allows you to perform text-to-hash conversions, hash cracking, and even dictionary attacks. Let's dive into it!
+This Python script allows you to convert text into various hash types (MD5, SHA1, SHA256) and perform a dictionary attack to recover text from a hash.
 
-**🔐 Text to Hash Conversion**
-Are you looking to convert plain text into a secure hash? You're in the right place! This tool supports multiple hash types, including MD5, SHA-1, and SHA-256. Just follow the prompts to enter your text and choose the hash type, and voila, you'll get the hashed result.
+## Usage
 
-**🧐 Dictionary Attack**
-If you have a hashed password and you want to crack it using a dictionary attack, this tool can help. Select the hash type, specify the path to your dictionary file (e.g., "Hacking_Tools\DictionaryAttack\data\1MillionPassword.txt"), and enter the hashed password. Our utility will do the heavy lifting to find the original password for you.
+1. Clone or download the repository.
 
-**💻 How to Use:**
-Run the code.
-Choose "E" for text-to-hash conversion or "D" for dictionary attack.
-Follow the prompts and provide the necessary information.
+2. Run the `hash_converter.py` script using Python.
 
-Please remember to use this tool responsibly and only on systems and accounts you have permission to access.
+3. Follow the on-screen instructions to either convert text to hash or perform a dictionary attack:
 
-Feel free to ask questions or share your experiences with this tool. Happy coding! 🔒👨‍💻🔍
+   - To convert text to hash, press `E`, then enter the text and select the hash type (MD5, SHA1, or SHA256).
+
+   - To perform a dictionary attack, press `D`, then select the hash type, provide the path to the password file, and enter the hash to crack.
+
+4. After each operation, you will be prompted to continue or exit the program.
+
+## Hash Types Supported
+
+- MD5
+- SHA1
+- SHA256
+
+## Disclaimer
+
+This script is for educational and testing purposes only. Unauthorized use for malicious purposes is prohibited.
+
+## Credits
+
+- [Technobeast](https://t.me/TechnobeastOP) - Creator of the script (Its me XD)
+
+Feel free to use and modify the code as needed. If you encounter any issues or have suggestions for improvement, please report them.
