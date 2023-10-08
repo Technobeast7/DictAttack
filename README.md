@@ -1,4 +1,4 @@
-**🚀 Exciting Encryption and Password Cracking Utility 🚀**
+*🚀 Exciting Encryption and Password Cracking Utility 🚀*
 
 Hello Everyone! Today, we've got an incredible piece of code to share with you. This powerful utility allows you to perform text-to-hash conversions, hash cracking, and even dictionary attacks. Let's dive into it!
 
